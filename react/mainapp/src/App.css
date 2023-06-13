@@ -306,10 +306,11 @@
 }
 
 .bot-icon{
-  height: 70px;
+  height: 65px;
   border-radius: 50%;
   bottom: 0;
   position: absolute;
+  margin-left: 5px;
 }
 
 .message-item-cat{
