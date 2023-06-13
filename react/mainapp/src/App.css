@@ -1,0 +1,328 @@
+
+/* nav */
+.top-nav{
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  background: #024cbc;
+  align-items: center;
+  width: 100%;
+}
+
+.home-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.myschools-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-text{
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin: auto 6px;
+}
+
+.top-right-nav{
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  margin-left: auto 5px;
+  float: right;
+}
+
+.language{
+  position: relative;
+}
+
+.go-home{
+  margin: 0px;
+  padding: 0px 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.go-to-home {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+/* sections */
+.main{
+  position: relative;
+  margin-left: auto; 
+  margin-right: auto;
+  width: auto;
+  display: flex;
+  height: 92vh;
+}
+
+.boxes{
+  margin-top: 8vh;
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-height: 85%;
+}
+
+/* images */
+.background{
+  position: absolute;
+  width: 100%;
+  height: 92vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.earth{
+  position: absolute;
+  height: 92vh;
+  right: 0;
+  
+}
+
+.moon{
+  position: absolute;
+  width: 125px;
+  top: 20px;
+  left: 15px;
+}
+
+
+/* faq */
+.faq {
+  background: white;
+  border-radius: 10px;
+  font-weight: 300;
+  position: relative;
+  margin-left: 1.85185%;
+  margin-right: 1.85185%;
+  width: 71.2963%;
+}
+
+.faq-header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #024cbc;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.vertical-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.faqs a:link {
+  color: #024cbc;
+  text-decoration: none;
+}
+
+.faqs li a {
+  display: flex;
+  color: #000;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.faqs li a:hover:not(.active) {
+  background-color: #024cbc;
+  color: white;
+}
+
+.faqs a:visited {
+  color: #024cbc;
+  text-decoration: none;
+}
+
+.faq-content {
+  position: absolute;
+  top: 86px;
+  font-weight: 200;
+  align-items: center;
+  width: 100%;
+}
+
+.question-list{
+  margin-top: 1px;
+  overflow: auto;
+}
+
+.vertical-menu {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  background-color: white;
+}
+
+.faqs{
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  max-width: 70%;
+  background-color: white;
+  font-size: 3.2vh;
+}
+
+.announcement{
+  float: left;
+}
+
+.announcement-text{
+  padding: 0px;
+  font-weight: 500;
+}
+
+/* chatbox */
+.chatbox{
+  background: white;
+  border-radius: 10px;
+  font-weight: 300;
+  position: relative;
+  width: 71.2963%;
+  height: 100%;
+  margin-left: 1.85185%;
+  margin-right: 1.85185%;
+  display: flex;
+}
+
+.messages{
+  width: 100%;
+  margin-top: 85.5px;
+  margin-bottom: 95px;
+  height: 74.5%;
+  overflow: auto;
+}
+
+
+.chatbox-header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #024cbc;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.chatbox-bottom{
+  position: absolute;
+  bottom: 0;
+  background-color: lightgray;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.textbox{
+  width: 100%;
+}
+
+#chatbotTextbox{
+  height: 25px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 100%;
+  border: 0px;
+}
+
+.button1{
+  margin-left: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  height: 45px;
+  width: 45px;
+  align-items: center;
+  background-color:#024cbc;
+  border: 0px;
+
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition-property: background-color, border-color, color, opacity;
+}
+
+.button1:hover{
+  background-color: #052b52;
+  border: 2px solid #4ee4b3;
+}
+
+.magnifying-glass{
+  height: 25px;
+  width: 25px;
+  margin-top: 5px;
+  margin-right: 1px;
+  color:#4ee4b3;
+  fill: currentColor;
+}
+
+.user{
+  display: -moz-inline-stack;
+  margin: 10px 80px 5px 80px;
+  clear: both;
+  border-radius: 10px 10px 0 10px;
+  background-color: lightgray;
+  max-width: 80%;
+  padding: 15px 20px;
+  float: right;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 20px;
+  height: min-content;
+}
+
+.bot{
+  display: -moz-inline-stack;
+  margin: 10px 80px 5px;
+  clear: both;
+  border-radius: 10px 10px 10px 0;
+  background-color: lightblue;
+  max-width: 80%;
+  padding: 15px 20px;
+  float: left;
+  word-wrap: break-word;
+}
+
+.user-icon{
+  margin-right: auto;
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.bot-icon{
+  height: 80px;
+  border-radius: 50%;
+  bottom: 0;
+  position: absolute;
+}
+
+.message-item-cat{
+  position: relative;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.message-item-dog{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}

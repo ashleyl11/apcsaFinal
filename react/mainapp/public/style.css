@@ -1,0 +1,12 @@
+.image1 {
+    position: absolute;
+}    
+.image2 {
+    position: relative;
+    float:right;
+}
+.image3 { 
+    position: relative;
+    float: left;
+    
+}
